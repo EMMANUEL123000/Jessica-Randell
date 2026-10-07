@@ -1,0 +1,109 @@
+@font-face {
+  font-family: Inter;
+  src: url("./assets/fonts/Inter-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: hsl(0, 0%, 8%);
+}
+main {
+  width: 26.5%;
+  height: 85%;
+  display: flex;
+  border-radius: 11px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: hsl(0, 0%, 12%);
+}
+#space {
+  width: 90%;
+  height: 5%;
+  background-color: hsl(0, 0%, 12%);
+}
+header {
+  width: 90%;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: hsl(0, 0%, 12%);
+}
+#name-con {
+  width: 90%;
+  height: 37%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: hsl(0, 0%, 12%);
+}
+#header-img {
+  width: 30%;
+  border: 0cap;
+  border-radius: 80px;
+  background-color: hsl(0, 0%, 12%);
+}
+.space2 {
+  height: 1%;
+  width: 90%;
+  background-color: hsl(0, 0%, 12%);
+}
+#mid-text {
+  width: 90%;
+  height: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 12%);
+}
+#btn-holder {
+  width: 90%;
+  height: 53%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 12%);
+}
+.media {
+  width: 90%;
+  height: 16%;
+  border-radius: 10px;
+  border: 0cap;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: hsl(0, 0%, 20%);
+}
+.media:hover {
+  background-color: hsl(75, 94%, 57%);
+  transition: scale(1.05);
+}
+.h4 {
+  height: 100%;
+  color: hsl(0, 0%, 100%);
+  font-size: small;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.h4:hover {
+  color: black;
+  transition: scale(1.04);
+}
+.h3 {
+  color: hsl(0, 0%, 100%);
+  font-size: small;
+}
